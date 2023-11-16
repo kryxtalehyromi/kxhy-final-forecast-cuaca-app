@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Final Cuaca App</title>
+</head>
+
+<body>
+    <div class="cuaca-app">
+        <header>
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Search your city" required id="search-form-input"
+                    class="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
+        </header>
+        <main>
+            <div class="cuaca-app-data">
+                <div>
+                    <h1 class="cuaca-app-city" id="city">Kuala Lumpur</h1>
+                    <p class="cuaca-app-details">
+                        <span id="time">Thurday, 16:40</span>,
+                        <span id="desc">light rain</span>
+                        <br />
+                        Humidity: <strong id="humidity">80%</strong>,
+                        Wind: <strong id="wind-speed">4.2km/h</strong>
+                    </p>
+                </div>
+                <div class="cuaca-app-temp-container">
+                    <div class="cuaca-app-icon" id="icon"></div>
+                    <div class="cuaca-app-temp-value" id="temp-value"> </div>
+                    <div class="cuaca-app-temp-unit">°C</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>
+                This project coded by
+                <a href="https://www.shecodes.io/graduates/102452-natasha-mohd-isa/" target="_blank"
+                    rel="noopener">Natasha Mohd
+                    Isa</a>,
+                created on
+                <a href="https://github.com/kryxtalehyromi/kxhy-final-weather-app/" target="_blank"
+                    rel="noopener">GitHub</a>
+                and hosted on
+                <a href="https://extraordinary-kataifi-eccecb.netlify.app/" target="_blank" rel="noopener">Netlify</a>.
+            </p>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

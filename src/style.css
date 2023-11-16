@@ -1,0 +1,103 @@
+/** @format */
+
+body {
+  background-color: cornsilk;
+  font-family: "Sarabun", sans-serif;
+}
+
+a {
+  font-weight: 600;
+  color: mediumvioletred;
+}
+
+.cuaca-app {
+  background: ghostwhite;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px navajowhite;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+header {
+  border-bottom: 1px solid rgb(219, 211, 178);
+  padding: 0 0 30px 0;
+}
+
+.search-form-input {
+  background-color: cornsilk;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 79%;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  background: mediumvioletred;
+  padding: 15px 30px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.cuaca-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cuaca-app-city {
+  margin: 0;
+  color: rgb(165, 25, 114);
+  font-size: 43px;
+  line-height: 48px;
+}
+
+.cuaca-app-details {
+  font-size: 16px;
+  color: rgb(153, 128, 30);
+  line-height: 22px;
+  font-weight: 450;
+}
+
+.cuaca-app-details strong {
+  color: rgb(165, 25, 114);
+}
+
+.cuaca-app-temp-container {
+  display: flex;
+}
+
+.cuaca-app-icon {
+  font-size: 90px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.cuaca-app-temp-value {
+  color: rgb(68, 57, 13);
+  font-size: 88px;
+  font-weight: bolder;
+  margin-right: 3px;
+}
+
+.cuaca-app-temp-unit {
+  color: rgb(68, 57, 13);
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+footer {
+  border-top: 1px solid rgb(219, 211, 178);
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
