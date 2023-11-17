@@ -83,8 +83,8 @@ function displayForecast(response) {
         forecastHtml +
         `
       <div class="cuaca-forecast-day">
-        <div class="cuaca-forecast-date">${formatDay(day.time)}</div>
-
+        <div class="cuaca-forecast-date"><strong>
+        ${formatDay(day.time)}</strong></div>
         <img src="${day.condition.icon_url}" class="cuaca-forecast-icon" />
         <div class="cuaca-forecast-temperatures">
           <div class="cuaca-forecast-temperature">

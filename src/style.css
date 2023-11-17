@@ -115,14 +115,14 @@ main {
 
 .cuaca-forecast-temperatures {
   text-align: center;
-  color: rgb(68, 57, 13);
+  color: #44390d;
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
 
 .cuaca-forecast-temperature {
-  padding: 0 6px;
+  padding: 0 8px;
 }
 
 footer {
